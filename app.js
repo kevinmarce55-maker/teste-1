@@ -2,7 +2,8 @@ const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
 
-const clientesRoutes = require('./routes/clientesRoutes')
+// Se agrega /src a la ruta
+const clientesRoutes = require('./src/routes/clientesRoutes')
 
 const app = express()
 app.use(cors())
